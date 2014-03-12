@@ -1,31 +1,37 @@
+<!--HTML5的doctype申明-->
 <!DOCTYPE html>
+                                            <!-- 'no-js' 在哪？？-->
 <html class="no-js">
     <head>
         <meta charset="utf-8">
+<!--"X-UA-Compatible"兼容性设定，其中"IE=edge"会通知IE以最高级别的可用模式显示内容-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
+<!--"viewport"是手机浏览器支持的tag，包括width`height`initial-scale`maximum-scale`minimum-scale`user-scalable属性--
+参考链接：http://www.cnblogs.com/pigtail/archive/2013/03/15/2961631.html-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
+                                            <!-- "以下三行，不是太理解"-->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
+<!--IE环境下判断IE版本的语句。第一次见-->
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
-
+                                            <!--不是太理解，script标签不是都放在head标签内吗-->        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
+<!--涉及js，先略过-->
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
