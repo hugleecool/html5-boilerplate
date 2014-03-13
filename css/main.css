@@ -120,8 +120,10 @@ textarea {
     visibility: hidden;
 }
 
+/*原来screenreader是用于盲人的，懂了~！~真有爱的设计*/
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ 
  */
 
 .visuallyhidden {
