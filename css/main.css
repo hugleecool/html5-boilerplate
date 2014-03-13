@@ -13,7 +13,7 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.4;  /* normal(默认),number(设置数字，与当前字体尺寸相乘来设置行距),length(设置固定行距),%(基于当前字体尺寸的百分比行间距),inherit(继承) */ 
 }
 
 /*
