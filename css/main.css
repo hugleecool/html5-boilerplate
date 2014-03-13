@@ -22,9 +22,9 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+::-moz-selection {      /*应该是css3的伪元素，网上找不到太多说明*/
+    background: #b3d4fc;      /*设置背景颜色。简写属性*/
+    text-shadow: none;        /*css3中的文本属性，默认为none*/
 }
 
 ::selection {
@@ -37,10 +37,10 @@ html {
  */
 
 hr {
-    display: block;
+    display: block;        /*以块级元素显示。有个疑问，之前hr不是块级元素么？*/
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc;     /*灰色*/
     margin: 1em 0;
     padding: 0;
 }
@@ -55,14 +55,14 @@ canvas,
 img,
 svg,
 video {
-    vertical-align: middle;
+    vertical-align: middle;      /*把垂直对齐设置为父元素的中部*/
 }
 
 /*
  * Remove default fieldset styles.
  */
 
-fieldset {
+fieldset {              /*<fieldset>标签可以将表单内的相关元素分组，会在相关表单元素周围绘制边框*/
     border: 0;
     margin: 0;
     padding: 0;
@@ -72,7 +72,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+textarea {              /*指定一个元素是否是由用户调整大小。默认none,both,horizontal,vertical*/
     resize: vertical;
 }
 
