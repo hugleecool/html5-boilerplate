@@ -22,7 +22,7 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {      /*应该是css3的伪元素，网上找不到太多说明*/
+::-moz-selection {      /*css3的伪元素，selection至少指被鼠标划词选中的这一块*/
     background: #b3d4fc;      /*设置背景颜色。简写属性*/
     text-shadow: none;        /*css3中的文本属性，默认为none*/
 }
